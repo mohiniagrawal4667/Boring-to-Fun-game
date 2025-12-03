@@ -1,7 +1,7 @@
 *Understanding the existing game logic
 The detailed analysis of Lane Runner Game 
 (that was all I could understand)
-This is a simple console-based lane runner game. The player is at the bottom and can move left or right using arrow key. Obstacles fall from the top in random lanes, and the player has to avoid them. If an obstacle reaches the bottom in the same lane as the player, the game ends.
+ This is a simple console-based lane runner game. The player is at the bottom and can move left or right using arrow key. Obstacles fall from the top in random lanes, and the player has to avoid them. If an obstacle reaches the bottom in the same lane as the player, the game ends.
 How it works :
 The game keeps running in a loop.
 First, it checks if the player pressed left or right and moves the player. Then it draws the lanes, obstacles, and player on the screen. The obstacle moves down one step in each loop. If the obstacle reaches the bottom where the player is, the game shows “GAME OVER” and stops.
